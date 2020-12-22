@@ -1,0 +1,31 @@
+# Main settings
+da_strat: 'dann'
+
+# CNN details
+cnn: 'LeNet'
+l2_normalize: false
+temperature: 1.0
+
+# Class-balanced sampling options
+class_balance_source: false
+pseudo_balance_target: false
+
+# Training params
+optimizer: 'Adam'
+batch_size: 128
+load_source: true
+lr: 0.0002
+wd: 0.00001
+num_epochs: 50
+
+# DA params
+load_da: false
+da_lr: 0.0002
+da_wd: 0
+da_num_epochs: 50
+
+# Loss weights
+lambda_src: 1.0
+lambda_unsup: 0.1
+
+use_cuda: False

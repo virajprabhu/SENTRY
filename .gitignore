@@ -1,0 +1,15 @@
+.ipynb_checkpoints
+*.pyc
+*.png
+checkpoints/**/*
+logs/**/*
+plots/**/*
+.ipynb_checkpoints/**/*
+.vscode/**/*
+wandb/**/*
+data/**/*
+__pycache__/**/*
+excluded.txt
+table.txt
+data
+results/*_LT/**/*

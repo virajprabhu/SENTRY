@@ -1,0 +1,32 @@
+# Main settings
+da_strat: 'SENTRY'
+
+# CNN details
+cnn: 'ResNet50FS'
+l2_normalize: true
+temperature: 0.05
+
+# Class-balanced sampling options
+class_balance_source: true
+pseudo_balance_target: true
+
+# Training params
+optimizer: 'SGD'
+batch_size: 16
+load_source: true
+lr: 0.001
+wd: 0.0005
+num_epochs: 20
+
+# DA params
+load_da: false
+da_lr: 0.001
+da_wd: 0.0005
+da_num_epochs: 40
+
+# Loss weights
+lambda_src: 1.0
+lambda_unsup: 0.1
+lambda_ent: 1.0
+
+use_cuda: False
