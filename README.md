@@ -74,7 +74,7 @@ If you found this code useful, please consider citing:
    author = {Prabhu, Viraj and Khare, Shivam and Kartik, Deeksha and Hoffman, Judy},
    title = {SENTRY: Selective Entropy Optimization via Committee Consistency for Unsupervised Domain Adaptation},
    year = {2020},
-   journal = {arXiv preprint: aaaaaa},
+   journal = {arXiv preprint: 2012.11460},
 }
 ```
 
