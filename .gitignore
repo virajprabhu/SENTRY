@@ -7,7 +7,6 @@ plots/**/*
 .ipynb_checkpoints/**/*
 .vscode/**/*
 wandb/**/*
-data/**/*
 __pycache__/**/*
 excluded.txt
 table.txt
