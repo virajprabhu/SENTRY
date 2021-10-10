@@ -70,11 +70,12 @@ Note: By default this code runs on GPU. To run on CPU pass: `--use_cuda False`
 
 If you found this code useful, please consider citing:
 ```
-@article{prabhu2020sentry
-   author = {Prabhu, Viraj and Khare, Shivam and Kartik, Deeksha and Hoffman, Judy},
-   title = {SENTRY: Selective Entropy Optimization via Committee Consistency for Unsupervised Domain Adaptation},
-   year = {2020},
-   journal = {arXiv preprint: 2012.11460},
+@inproceedings{prabhu2021sentry,
+  title={SENTRY: Selective Entropy Optimization via Committee Consistency for Unsupervised Domain Adaptation},
+  author={Prabhu, Viraj and Khare, Shivam and Kartik, Deeksha and Hoffman, Judy},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={8558--8567},
+  year={2021}
 }
 ```
 
