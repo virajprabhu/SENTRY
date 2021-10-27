@@ -1,4 +1,4 @@
-## PyTorch Code for [SENTRY: Selective Entropy Optimization via Committee Consistency for Unsupervised Domain Adaptation](https://virajprabhu.github.io/sentry-web/)
+## PyTorch Code for [SENTRY: Selective Entropy Optimization via Committee Consistency for Unsupervised Domain Adaptation](https://virajprabhu.github.io/sentry-web/) (ICCV 2021)
 ### Viraj Prabhu, Shivam Khare, Deeksha Kartik, Judy Hoffman
 
 Many existing approaches for unsupervised domain adaptation (UDA) focus on adapting under only data distribution shift and offer limited success under additional cross-domain label distribution shift. Recent work based on self-training using target pseudolabels has shown promise, but on challenging shifts pseudolabels may be highly unreliable and using them for self-training may cause error accumulation and domain misalignment. We propose Selective Entropy Optimization via Committee Consistency (SENTRY), a UDA algorithm that judges the reliability of a target instance based on its predictive consistency under a committee of random image transformations. Our algorithm then selectively minimizes predictive entropy to increase confidence on highly consistent target instances, while maximizing predictive entropy to reduce confidence on highly inconsistent ones. In combination with pseudolabel-based approximate target class balancing, our approach leads to  significant improvements over the state-of-the-art on 27/31 domain shifts from standard UDA benchmarks as well as benchmarks designed to stress-test adaptation under label distribution shift.
@@ -70,11 +70,12 @@ Note: By default this code runs on GPU. To run on CPU pass: `--use_cuda False`
 
 If you found this code useful, please consider citing:
 ```
-@article{prabhu2020sentry
-   author = {Prabhu, Viraj and Khare, Shivam and Kartik, Deeksha and Hoffman, Judy},
-   title = {SENTRY: Selective Entropy Optimization via Committee Consistency for Unsupervised Domain Adaptation},
-   year = {2020},
-   journal = {arXiv preprint: 2012.11460},
+@inproceedings{prabhu2021sentry,
+  title={SENTRY: Selective Entropy Optimization via Committee Consistency for Unsupervised Domain Adaptation},
+  author={Prabhu, Viraj and Khare, Shivam and Kartik, Deeksha and Hoffman, Judy},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={8558--8567},
+  year={2021}
 }
 ```
 

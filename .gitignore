@@ -10,5 +10,4 @@ wandb/**/*
 __pycache__/**/*
 excluded.txt
 table.txt
-data
 results/*_LT/**/*
